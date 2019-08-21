@@ -15,6 +15,7 @@ namespace TestJGO
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            string test ="a";
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
